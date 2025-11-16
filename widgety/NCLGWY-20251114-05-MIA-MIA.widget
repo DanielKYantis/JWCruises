@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="widget no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport">
+
+    <title>Widgety</title>
+    <meta content="authenticity_token" name="csrf-param"/>
+    <meta content="RWyDu6dI4F2xVYZgWoX3i72my43GJkOvdS29lS7EciM=" name="csrf-token"/>
+    <!-- <script src="//use.typekit.net/stu5fvo.js"></script> -->
+    <script>
+      // try {
+      //   Typekit.load();
+      // } catch (e) {}
+      // window.trackingID = "UA-41503624-1"
+      window.mapboxPublicToken = "pk.eyJ1IjoiaWNydWlzZSIsImEiOiI3enBKbmdVIn0.fZ7xpdtCSEvCSf0qtcXzag"
+      window.defaultMapboxStyle = 'mapbox://styles/icruise/cj806gu5c7h3l2rp8t43qbv4b'
+    </script>
+    <link charset="UTF-8" href="/widgety/default.css" media="all" rel="stylesheet"/>
+    <!-- <script>
+      window.onError = window.onerror
+      window.onerror = function() {
+        return true;
+      }
+    </script> -->
+    <script charset="UTF-8" src="/wigety/main.js"></script>
+    <!-- <script>
+      window.onerror = window.onError
+    </script> -->
+  </head>
+  <body data-action="show" data-controller="widgets">
+    <div id="flash_alerts"></div>
+    <div id="site_contents">
+      <!-- <script async defer src="https://www.google.com/recaptcha/api.js"></script> -->
+      <script src="/widgety/cruise_tour_search.js"></script>
+      <link href="/widgety/cruise_tour_search.css" media="screen" rel="stylesheet"/>
+    </div>
+  </body>
+</html>
