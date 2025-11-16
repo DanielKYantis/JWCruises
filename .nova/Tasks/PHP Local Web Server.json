@@ -1,0 +1,14 @@
+{
+  "extension" : {
+    "identifier" : "panic.PHP",
+    "name" : "PHP"
+  },
+  "extensionTemplate" : "phpLocalServerDebug",
+  "extensionValues" : {
+    "php.debug.launchBrowser" : true,
+    "php.debug.localSourceRoot" : ".",
+    "php.debug.port" : 9003,
+    "php.debug.serverPort" : 8080
+  },
+  "openLogOnRun" : "fail"
+}

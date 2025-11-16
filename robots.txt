@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /admin/
+Disallow: /assets/
+Disallow: /forms/
+Disallow: /sections/
+Disallow: /includes/
+Disallow: /ajax/
+Disallow: /uploads/
+Disallow: /xxxxxx/
+Disallow: /php/
+Allow: /
+
+Sitemap: https://www.jwcruises.com/sitemap.xml
+Sitemap: https://www.jwcruises.com/sitemap.txt
+Sitemap: https://www.jwcruises.com/sitemap.rss

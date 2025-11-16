@@ -1,0 +1,81 @@
+{
+  "id": "/",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "short_name": "JW Cruises®",
+  "name": "JW Cruises® for Jehovah's Witnesses and Friends™",
+  "description": "JW Cruises® for Jehovah's Witnesses and Friends™ offers budget-friendly group cruises that promote unity, safety and friendship.",
+  "display": "standalone",
+  "display_override": [ "window-controls-overlay" ],
+  "background_color": "#bbffee",
+  "theme_color": "#009977",
+  "orientation": "portrait",
+  "related_applications": [{
+    "platform": "webapp",
+    "url": "https://jwcruises.com/manifest.json"
+  }],
+  "prefer_related_applications": true,
+  "launch_handler": { "client_mode": "focus-existing" },
+  "icons": [
+    {
+      "src":"./assets/img/icon/favicon.ico",
+      "type": "image/ico",
+      "sizes": "48x48",
+      "purpose": "any"
+    },
+    {
+      "src":"./assets/img/icon/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/img/JWLogo_drk_bkg.png",
+      "type": "image/png",
+      "sizes": "1536x680",
+      "form_factor": "wide",
+      "label": "JW Cruises"
+    },
+    {
+      "src": "./assets/img/logo/900x700-wt_bkg.png",
+      "type": "image/png",
+      "sizes": "900x700",
+      "label": "JW Cruises"
+    }
+  ],
+  "features": [ "Jehovah's Witnesses" ],
+  "categories": [ "travel", "booking", "lifestyle", "social" ],
+  "shortcuts": [
+    {
+      "name": "Home Page",
+      "short_name": "Home",
+      "description": "Open Home Page",
+      "url": "/",
+      "icons": [
+        { "src": "/assets/img/icon/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "About Us",
+      "short_name": "About",
+      "description": "Open About Us Page",
+      "url": "/about-us.php",
+      "icons": [
+        { "src": "/assets/img/icon/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Open Contact Us",
+      "url": "/contact-us.php",
+      "icons": [
+        { "src": "/assets/img/icon/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+      ]
+    }
+  ]
+}

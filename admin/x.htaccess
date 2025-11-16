@@ -1,0 +1,26 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+#SSLOptions +StrictRequire
+#SSLRequireSSL
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Header set Strict-Transport-Security "no-store, max-age=0" env=HTTPS
+Header set Cache-Control "no-store, max-age=0, public"
+
+<Files .htaccess>
+  order allow,deny
+  deny from all
+</Files>
+
+#ErrorDocument 401 /error/401.php
+
+AuthType Basic
+AuthName "JW Fun Tours - Admin"
+AuthUserFile /kunden/homepages/3/d958587516/htdocs/JWFunTours/.htpasswd
+require valid-user
+
+IndexIgnore */*
+Options All -Indexes

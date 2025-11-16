@@ -1,0 +1,7 @@
+# --- ENVIRONMENT FILES ---
+.env
+.env.local
+.env.production
+.env.development
+config/loadenv.php.bak
+config/loadenv.local.php

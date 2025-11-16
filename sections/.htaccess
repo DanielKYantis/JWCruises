@@ -1,0 +1,4 @@
+# Deny all access
+<RequireAll>
+  Require all denied
+</RequireAll>

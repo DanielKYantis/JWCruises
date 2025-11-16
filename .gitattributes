@@ -1,0 +1,19 @@
+* text=auto eol=lf
+*.php diff=php
+*.html diff=html
+*.css diff=css
+*.js diff=javascript
+*.json diff=json
+*.xml diff=xml
+*.svg diff=svg
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.log binary
+*.bak binary
+*.env binary

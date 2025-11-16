@@ -1,0 +1,14 @@
+{
+  "identifier" : "CB2F4361-D018-4F8C-8E90-4792A8858F9C",
+  "ignoredFilePatterns" : [
+    ".DS_Store",
+    ".nova",
+    "phpinfo.php",
+    "config.codekit3"
+  ],
+  "localPath" : ".",
+  "remotePath" : "\/JWCruises\/www",
+  "remoteURL" : "https:\/\/www.jwcruises.com",
+  "server" : "JWcruises",
+  "usesPublishing" : true
+}

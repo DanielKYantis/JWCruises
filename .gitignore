@@ -1,0 +1,86 @@
+# --- ENVIRONMENT FILES ---
+# ============================================
+# JW Cruises - Git Ignore Configuration
+# ============================================
+# Prevent sensitive files, configuration, logs, and temp files from being public.
+# Safe to commit everything else in /www (HTML, CSS, JS, etc.)
+# ============================================
+
+# --- CONFIG & SENSITIVE DIRECTORIES ---
+/www/admin/
+#/www/users/
+#/www/usersc/
+#/www/bootstrap/
+!www/bootstrap/*.css   # keep front-end CSS if needed
+
+# --- SERVER & SECURITY FILES ---
+/www/.htaccess
+/www/.user.ini
+/www/php.ini
+/www/testAPI.php
+
+# --- PRIVATE DATA & LOGS ---
+/www/contact_log.txt
+/www/csp-violations.log
+/www/push_subscribers.json
+
+# --- LOCAL BACKUPS / TEST COPIES ---
+/www/* copy.*
+/www/testAPI.php
+/www/fetch_cruise_viewer.php
+/www/fetch_cruise_viewer copy.php
+/www/blog-details copy.php
+/www/cruise-details copy.php
+/www/.htaccess copy
+
+# --- TEMP, CACHE, LOGS ---
+/tmp/
+.cache/
+*.log
+*.bak
+*.old
+*.zip
+*.tmp
+*.swp
+*.orig
+*.tar
+*.gz
+
+# --- UPLOADS & GENERATED FILES ---
+/uploads/
+/backups/
+/private/
+
+# --- NODE / COMPOSER / BUILD TOOLS ---
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# --- IDE / SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.nova/
+*.sublime-project
+*.sublime-workspace
+
+# --- LOCAL ENVIRONMENT CONFIGURATION ---
+.env
+.env.local
+.env.production
+.env.development
+config/loadenv.php.bak
+config/loadenv.local.php
+
+
+# --- OTHER MISCELLANEOUS ---
+/www/subscribe.php        # contains key-handling logic
+/www/push_sender.php      # contains push key logic
+/www/forms/
+www/forms/*.php
+
+# ============================================
+# End of JW Cruises Git Ignore
+# ============================================

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>JW Cruises© for Jehovah's Witnesses and Friends™</title>
+    <link>https://www.jwcruises.com</link>
+    <description>JW Cruises® for Jehovah's Witnesses and Friends™ offers budget-friendly group cruises that promote unity, safety and friendship</description>
+    <atom:link href="https://www.jwcruises.com/sitemap.rss" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Home</title>
+      <link>https://www.jwcruises.com/home</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/home.php</guid>
+    </item>
+
+    <item>
+      <title>About Us</title>
+      <link>https://www.jwcruises.com/about-us</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/about-us.php</guid>
+    </item>
+
+    <item>
+      <title>Contact Us</title>
+      <link>https://www.jwcruises.com/contact-us</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/contact-us.php</guid>
+    </item>
+
+    <item>
+      <title>Terms of Service</title>
+      <link>https://www.jwcruises.com/terms-of-services</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/terms-of-services.php</guid>
+    </item>
+
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://www.jwcruises.com/privacy-policy</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/privacy-policy.php</guid>
+    </item>
+
+    <item>
+      <title>All Cruises</title>
+      <link>https://www.jwcruises.com/all-cruises</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/all-cruises.php</guid>
+    </item>
+
+    <item>
+      <title>Error</title>
+      <link>https://www.jwcruises.com/error</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/error.php</guid>
+    </item>
+
+    <item>
+      <title>7 Night Mediterranean Cruise</title>
+      <link>https://www.jwcruises.com/cruise-details.php?cruiseID=1538179</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/cruise-details.php?cruiseID=1538179</guid>
+    </item>
+
+    <item>
+      <title>6 Night Caribbean Western Cruise</title>
+      <link>https://www.jwcruises.com/cruise-details.php?cruiseID=1471345</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/cruise-details.php?cruiseID=1471345</guid>
+    </item>
+
+    <item>
+      <title>7 Night Caribbean Cruise</title>
+      <link>https://www.jwcruises.com/cruise-details.php?cruiseID=1493492</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/cruise-details.php?cruiseID=1493492</guid>
+    </item>
+
+    <item>
+      <title>14 Night Hawaii Cruise</title>
+      <link>https://www.jwcruises.com/cruise-details.php?cruiseID=1470299</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/cruise-details.php?cruiseID=1470299</guid>
+    </item>
+
+    <item>
+      <title>7 Night Alaska Cruise</title>
+      <link>https://www.jwcruises.com/cruise-details.php?cruiseID=1552614</link>
+      <pubDate>Wed, 22 May 2025 10:00:00 +0000</pubDate>
+      <guid>https://www.jwcruises.com/cruise-details.php?cruiseID=1552614</guid>
+    </item>
+
+  </channel>
+</rss>
