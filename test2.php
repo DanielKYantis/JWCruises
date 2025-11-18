@@ -2,10 +2,11 @@
 header("Access-Control-Allow-Origin: https://www.widgety.co.uk");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-//
+header("Access-Control-Allow-Credentials: true");
+
 // // Allow embedding
   header_remove("X-Frame-Options");
-	header("Content-Security-Policy: frame-src 'self' https://www.widgety.co.uk; child-src 'self' https://www.widgety.co.uk;");
+	// header("Content-Security-Policy: frame-src 'self' https://www.widgety.co.uk; child-src 'self' https://www.widgety.co.uk;");
 	// header("Access-Control-Allow-Origin: *");
 ?>
 

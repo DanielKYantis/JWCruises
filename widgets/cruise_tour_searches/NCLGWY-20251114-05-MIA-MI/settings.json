@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "response": {
+    "widget": {
+      "id": 18826,
+      "friendly_token": "twSfxpVB1etB3zAL1yA6",
+      "settings": {
+        "email": "",
+        "width": "0",
+        "height": "0",
+        "locale": "en",
+        "operators": "[\"\", \"6\", \"12\", \"25\", \"30\", \"32\", \"34\", \"35\", \"41\", \"43\", \"44\", \"85\", \"183\", \"193\", \"278\"]",
+        "hide_ships": "false",
+        "enquiry_url": "info@jwcruises.com",
+        "hide_prices": "false",
+        "hide_cruises": "false",
+        "hide_enquiry": "false",
+        "simple_prices": "false",
+        "disable_widget": "false",
+        "show_in_dashboard": "false",
+        "enable_deep_linking": "true",
+        "hide_uk_cruises_field": "true"
+      },
+      "title": "JW Cruises LLC - Cruise and Tour Search",
+      "primary_colour": "#009977",
+      "secondary_colour": "#bcffee",
+      "locale": "en",
+      "mapbox_public_token": "pk.eyJ1IjoiaWNydWlzZSIsImEiOiI3enBKbmdVIn0.fZ7xpdtCSEvCSf0qtcXzag",
+      "recaptcha_site_key": "6LeqIDMUAAAAAHfrpo9Ep03KK9309d54_kyuMpgT",
+      "market": {
+        "id": 4,
+        "name": "United States",
+        "slug": "us",
+        "locale": "en-US",
+        "created_at": "2022-03-16T15:06:15.630Z",
+        "updated_at": "2022-03-16T15:06:15.630Z"
+      }
+    }
+  }
+}

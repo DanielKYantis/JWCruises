@@ -1,26 +1,22 @@
-<?php
-require_once 'users/init.php';
-  require 'sections/header.php';
-
+<?php require 'sections/header.php';
 	header("Access-Control-Allow-Origin: https://www.widgety.co.uk");
 	header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 	header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-
-	// Allow embedding
+	header("Access-Control-Allow-Credentials: true");
 	header_remove("X-Frame-Options");
-	header("Content-Security-Policy: frame-src 'self' https://www.widgety.co.uk; child-src 'self' https://www.widgety.co.uk;");
+	// header("Content-Security-Policy: frame-src 'self' https://www.widgety.co.uk; child-src 'self' https://www.widgety.co.uk;");
 ?>
 		<section id="featured" class="featured-programs section">
 
-			<div class="container section-title" data-aos="fade-up">
+			<div class="container section-title">
 				<span class="description-title">Widgety Test</span>
 				<h2>This is a test</h2>
 				<p>for testing only, this is only a test</p>
 			</div>
 
-			<div class="container-fluid" data-aos="fade-up" data-aos-delay="300">
+			<div class="container-fluid">
 
-				<iframe class="widgety-cruise-tour-search" frameborder="0" width="100%" height="600" preview-nav="false" results-nav="false" tabs="false" src="www.widgety.co.uk/widgets/twSfxpVB1etB3zAL1yA6/holidays/HALD630.widget?operator_ids%5B%5D=25&start_port_id=249379&duration_to=10&duration_from=5&selected_months_date_from%5B%5D=2026-03-01&selected_months_date_from%5B%5D=2026-04-01"></iframe>
+				<iframe class="widgety-cruise-tour-search" frameborder="0" width="100%" height="600" preview-nav="false" results-nav="false" tabs="false" crossorigin=use-credentials src="//www.widgety.co.uk/widgets/twSfxpVB1etB3zAL1yA6/holidays/NCLGWY-20251114-05-MIA-MIA.widget"></iframe>
 
 				<script data-widgety="true" src="https://www.widgety.co.uk/assets/widgety_iframe-338e444fa45e2af836a1c162ed7b7fa3b57d6267f6e30c026f7d582a77e34dd7.js"></script>
 
@@ -31,8 +27,6 @@ require_once 'users/init.php';
 			</div>
 
 		</section>
-
-
 
 <?php
 	require 'sections/contact-boxes.php';

@@ -1,11 +1,9 @@
 <?php require 'sections/header.php';
-header("Access-Control-Allow-Origin: https://www.widgety.co.uk");
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-//
-// // Allow embedding
+	header("Access-Control-Allow-Origin: https://www.widgety.co.uk");
+	header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+	header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
   header_remove("X-Frame-Options");
-	header("Content-Security-Policy: frame-src 'self' https://www.widgety.co.uk; child-src 'self' https://www.widgety.co.uk;");
+	// header("Content-Security-Policy: frame-src 'self' https://www.widgety.co.uk;");
 	// header("Access-Control-Allow-Origin: *");
 ?>
 
@@ -55,10 +53,7 @@ header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-W
 				}
 			</style>
 
-			<div id="widget-container" class="container-fluid" data-aos="fade-up" data-aos-delay="300">
-
-
-
+			<div id="widget-container" class="container-fluid">
 
 			</div>
 
@@ -92,7 +87,7 @@ header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-W
 					const params = new URLSearchParams(window.location.search);
 					const cruiseID = params.get('cruiseID') || 'NCLGWY-20251114-05-MIA-MIA';
 
-					const response = await fetch(`/widgety-local/data/${cruiseID}.json`);
+					const response = await fetch(`/data/${cruiseID}.json`);
 					const json = await response.json();
 					const data = json.response.date;
 					renderWidget(data);
