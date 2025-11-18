@@ -360,7 +360,7 @@
     on: A,
     un: M,
     requiresJSON: function(a) {
-      s(e, "JSON") || t.write('<script type="text/javascript" src="' + a + '"></script>')
+      s(e, "JSON") || t.write('<script type="text/javascript" src="' + a + '"></' + 'script>')
     }
   },
   function() {

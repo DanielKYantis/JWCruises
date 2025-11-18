@@ -1152,7 +1152,7 @@
 }
 
 .react-tabs__tab-panel {
-  display: none;
+  display: block;
 }
 
 .react-tabs__tab-panel--selected {

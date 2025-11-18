@@ -19,9 +19,7 @@
     <!-- <link charset="UTF-8" href="/widgety/default.css" media="all" rel="stylesheet"/> -->
     <script>
       window.onError = window.onerror
-      window.onerror = function() {
-        return true;
-      }
+      window.onerror = function() { return true; }
     </script>
     <script charset="UTF-8" src="/widgety/main.js"></script>
     <script>
