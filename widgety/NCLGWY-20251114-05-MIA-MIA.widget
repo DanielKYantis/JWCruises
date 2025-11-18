@@ -16,7 +16,7 @@
       window.mapboxPublicToken = "pk.eyJ1IjoiaWNydWlzZSIsImEiOiI3enBKbmdVIn0.fZ7xpdtCSEvCSf0qtcXzag"
       window.defaultMapboxStyle = 'mapbox://styles/icruise/cj806gu5c7h3l2rp8t43qbv4b'
     </script>
-    <link charset="UTF-8" href="/widgety/default.css" media="all" rel="stylesheet"/>
+    <!-- <link charset="UTF-8" href="/widgety/default.css" media="all" rel="stylesheet"/> -->
     <script>
       window.onError = window.onerror
       window.onerror = function() {
