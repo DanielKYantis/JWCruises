@@ -46,8 +46,12 @@
   try{Typekit.load();}catch(e){}
   window.mapboxPublicToken = "pk.eyJ1IjoiaWNydWlzZSIsImEiOiI3enBKbmdVIn0.fZ7xpdtCSEvCSf0qtcXzag"
   window.defaultMapboxStyle = 'mapbox://styles/icruise/cj806gu5c7h3l2rp8t43qbv4b'
+</script> 
+<script>
   window.onError = window.onerror
   window.onerror = function(){ return true; }
+</script>
+<script>
   !function(e, t, a, o, i, r) {
     function n(e, t) {
       var a = typeof e[t];
@@ -7537,9 +7541,9 @@
       }
     }
   });
-//<!-- <script charset="UTF-8" src="https://www.widgety.co.uk/assets/widget_app/designs/cruise_tour_search/default/main-4b459a0ec6595a2c500d12eed1722ae48b588f1fef7d04eedc535e180718bebf.js"></scr ipt> -->
-  window.onerror = window.onError
 </script>
+  //<!-- <script charset="UTF-8" src="https://www.widgety.co.uk/assets/widget_app/designs/cruise_tour_search/default/main-4b459a0ec6595a2c500d12eed1722ae48b588f1fef7d04eedc535e180718bebf.js"></scr ipt> -->
+<script>window.onerror = window.onError</script>
 <style data-styled="active" data-styled-version="5.3.6"></style>
 <style>
   <style type="text/css">
